@@ -98,13 +98,156 @@ define(
                         }
                     },
                     "indicators": {
-                        "label": "Indicadores estratégicos"
+                        "label": "Indicadores estratégicos",
+                        "dialogs": {
+                            "save": {
+                                "title": "Información",
+                                "success": "¡Datos guardados correctamente!",
+                                "error": "Se produjo un error al guardar los datos: "
+                            },
+                            "reset": {
+                                "title": "¡Cuidado!",
+                                "warningText": "Todos los cambios realizados se perderán.",
+                                "okButton": "Aceptar",
+                                "cancelButton": "Cancelar"
+                            }
+                        },
+                        "filters": {
+                            "general": {
+                                "title": "Filtro General",
+                                "type": "Tipo",
+                                "status": "Status",
+                                "periodicity": "Periodicidad"
+                            },
+                            "pide": {
+                                "title": "Filtro PIDE",
+                                "axis": "Ejes",
+                                "topic": "Temas",
+                                "objective": "Objetivos"
+                            },
+                            "responsible": {
+                                "title": "Filtro Responsable",
+                                "secretary": "Secretaría",
+                                "area": "Área",
+                                "name": "Nombre"
+                            }
+                        },
+                        "table": {
+                            "headers": {
+                                "status": "Status",
+                                "name": "Indicador",
+                                "actions": "Acciones"
+                            },
+                            "pide": {
+                                "title": "Indicadores PIDE",
+                                "tableSummary": "Indicadores Estratégicos",
+                                "tableAria": "Tabla de Indicadores Estratégicos",
+                                "newErrorText": "Debes seleccionar un indicador",
+                                "deleteErrorText": "No puedes eliminar indicadores que tengan objetivos"
+                            },
+                            "mecasut": {
+                                "title": "MECASUT",
+                                "tableSummary": "Indicadores Estratégicos",
+                                "tableAria": "Tabla de Indicadores Estratégicos",
+                                "newErrorText": "Debes seleccionar un indicador",
+                                "deleteErrorText": "No puedes eliminar indicadores que tengan objetivos"
+                            },
+                            "pe": {
+                                "title": "PE",
+                                "tableSummary": "Indicadores Estratégicos",
+                                "tableAria": "Tabla de Indicadores Estratégicos",
+                                "newErrorText": "Debes seleccionar un indicador",
+                                "deleteErrorText": "No puedes eliminar indicadores que tengan objetivos"
+                            }
+                        }
                     },
                     "pe": {
                         "label": "Programas Educativos"
                     },
                     "poa": {
-                        "label": "Ficha POA"
+                        "label": "Ficha POA",
+                        "typesPoa": {
+                                "option1": "Proceso 1",
+                                "option2": "Proceso 2",
+                                "option3": "Proceso 3"
+                        },
+                        "periodicityPoa": {
+                                "option1": "Anual",
+                                "option2": "Semestral",
+                                "option3": "Cuatrimestral"
+                        },
+                        "yearPoa": {
+                                "option1": "2017",
+                                "option2": "2016",
+                                "option3": "2015"
+                        },
+                        "statusPoa": {
+                                "option1": "Normal",
+                                "option2": "Inactivo",
+                                "option3": "Incompleto e inactivo "
+                        },
+                        "filtros": {
+                            "filtroPide": {
+                                "title": "Filtro PIDE",
+                                "axes": "Ejes",
+                                "thmes": "Temas",
+                                "objectives": "Objetivos",
+                                "indicator": "Indicador",
+                                "axesPide": {
+                                    "option1": "Eje 1",
+                                    "option2": "Eje 2",
+                                    "option3": "Eje 3"
+                                },
+                                "thmesPide": {
+                                        "option1": "Tema 1",
+                                        "option2": "Tema 2",
+                                        "option3": "Tema 3"
+                                },
+                                "objectivesPide": {
+                                        "option1": "Objetivo 1",
+                                        "option2": "Objetivo 2",
+                                        "option3": "Objetivo 3"
+                                },
+                                "indicatorPide": {
+                                        "option1": "Indicador 1",
+                                        "option2": "Indicador 2",
+                                        "option3": "Indicador 3"
+                                }
+                            },
+                            "filtroResponsable": {
+                                "title": "Filtro Responsable",
+                                "secretary": "Secretaría",
+                                "direccion": "Dirección",
+                                "responsable": "Responsable",
+                                "secretaryResp": {
+                                    "option1": "Rectoría",
+                                    "option2": "Administrativa",
+                                    "option3": "Vinculación"
+                                },
+                                "direccionResp": {
+                                    "option1": "Dirección 1",
+                                    "option2": "Dirección 2",
+                                    "option3": "Dirección 3"
+                                },
+                                "responsableResp": {
+                                    "option1": "Responsable 1",
+                                    "option2": "Responsable 2",
+                                    "option3": "Responsable 3"
+                                }
+                            }
+                        },
+                        "tablePoa": {
+                            "headers": {
+                                "status": "Status",
+                                "name": "Nombre",
+                                "actions": "Acciones"
+                            },
+                            "title": "Tipos de POA",
+                            "tableSummary": "",
+                            "tableAria": "",
+                            "newErrorText": "",
+                            "deleteErrorText": ""
+                        }
                     }
                 },
                 "pide": {

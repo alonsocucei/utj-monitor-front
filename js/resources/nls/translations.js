@@ -1,7 +1,7 @@
 define(
         {
             root: {
-                "appTitle": "Tableros UTJ",
+                "appTitle": "Tableros de control",
                 "header": {},
                 "home": {
                     "description": "Es una heramienta didáctica para realizar todo tipo de planes como planes de desarrollo, \n\
